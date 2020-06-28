@@ -13,7 +13,7 @@ public class HelloWorld{
 					/*ifor (int col = 1; col <= row; col++) {
 						if (col > 1) {
 							for (int twice = 1; twice <= 2; twice++) {
-								sb.append("ˆ¤“†‚¤‚ñ‚±  ‚¨‚³‚Ð‚ß‚¤‚ñ‚±");
+								sb.append("This is a Loop Test");
 							}				
 					/*	}
 					}*/
@@ -23,7 +23,7 @@ public class HelloWorld{
 					}
 					sb.append(spacestr2+row);
 					sb.append(spacestr2+spacestr);
-					sb.append(spacestr2+‚Ä‚¢‚©‚ñ‚¤");
+					sb.append(spacestr2+"My name is Tom");
 					
 					String aaa = String.format("%8s", sb.toString());
 					System.out.println(aaa);
